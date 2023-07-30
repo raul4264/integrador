@@ -40,8 +40,9 @@ li {
   min-width: fit-content;
   padding: 10px;
   left: 50%;
-  top: 100px;
+  top: 300px;
   transform: translate(-50%, -50%);
+  
 }
 
 #kiko-slider > ul.slider li {
@@ -56,10 +57,10 @@ li {
 }
 
 #kiko-slider > ul.slider li img {
-  width: 100%;
-  max-height: 600px;
 
-  object-fit: cover;
+width: 50%;
+min-height: 65vh;
+
 }
 
 #kiko-slider > ul.slider li:first-child {
@@ -96,6 +97,17 @@ li {
   text-align: center;
 }
 
+#kiko-slider{
+min-height: 50%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
 
  #menu-toggle {
   display: none;
@@ -114,18 +126,11 @@ header {
   justify-content: space-evenly;
   align-items: center;
   height: 300px;
-
-
   width: 100%;
-
-
   position: relative;
 }
 .navbar {
   display: flex;
-
-
-
 }
 .navbar-list {
   display: flex;
@@ -142,7 +147,7 @@ header {
 }
 header img {
  display: block;
-  width: auto;
+ msx-width: 10%;
 }
 header label img {
   height: 50px;
@@ -507,7 +512,13 @@ h1 {
   .galeria {
   min-width: 100%;
 }
+#kiko-slider > ul.slider li img {
+
+  width: 60%;
+  min-width: 60%;
+  min-height: 67vh;
   
+  }
 
 #footer .footer{
   background-color: transparent;
@@ -576,6 +587,13 @@ h1 {
 *{
   box-sizing: content-box;
 }
+#kiko-slider > ul.slider li img {
+
+  width: 50%;
+  min-height: 65vh;
+  background-color: transparent;
+  
+  }
   header {
     width: 50%;
     display: flex;
@@ -736,6 +754,7 @@ flex-wrap: wrap;
   #body form {
   width: 400px;
   }
+
   #body form input,
   #body form textarea {
   width: 400px;
@@ -744,8 +763,49 @@ flex-wrap: wrap;
   form{
     text-align: center;
   }
+  #kiko-slider {
 
+  }
+  
+  #kiko-slider > ul,
+ 
+  
+  #kiko-slider > ul.slider {
+    position: relative;
+    min-width: 140vw;
+    width: 100%;
+    max-height: 300px;
+    margin-bottom: 0px;
+  }
+  
+  #kiko-slider > ul.slider h1 {
+  top: 40%;
+   background-color: transparent;
+  }
+  
+  #kiko-slider > ul.slider li {
+ }
+  
+  #kiko-slider > ul.slider li img {
+   }
 
+  #kiko-slider > .menu {
+    text-align: center;
+    margin: 180px 0;
+   margin-bottom: -70px;
+  }
+  
+  #kiko-slider{
+  min-height: 50%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+   }
+   
+   header img{
+    width: 40%;
+    margin-top: 9%;
+   }
 }
 /*=============================================*/
 /*=============================================*/
@@ -753,11 +813,26 @@ flex-wrap: wrap;
 
 
 @media (max-width: 580px) {
-  .navbar .navbar-list {
-    position: absolute;
-    top: -910px; 
+  header img{
+  width: 87%;
+  margin-top: 50%;
+ }
+  .navbar {
     width: 100%;
-    height: 100vh; 
+  }
+  
+.navbar .menu-label  img{
+margin-left: 50px;
+margin-top:0%;
+margin-bottom: 5%;
+
+}
+
+ .navbar-list {
+    position: absolute;
+    top: -590px; 
+    width: 25vw;
+    height: 45vh; 
     border: snow solid 2px;
     border-top: 0;
     flex-direction: column;
@@ -767,7 +842,7 @@ flex-wrap: wrap;
     display: none;
     align-items: center;
     justify-content: center;
-    left: 0;
+
  
   }
   .titulos {
@@ -863,5 +938,12 @@ flex-wrap: wrap;
   
   .titulos #titulos  {
     display: none;
+  }
+  #kiko-slider > ul.slider {
+
+ display: block;
+    width: 100%;
+ 
+    margin-bottom: 0px;
   }
 }
