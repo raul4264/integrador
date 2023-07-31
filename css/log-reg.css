@@ -1,0 +1,101 @@
+body {
+  background-color: rgb(7, 84, 146);
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url();
+
+  background-size: cover;
+  background-attachment: fixed;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 40px 30%;
+  padding-bottom: 30px;
+  background-color: blue;
+  gap: 20px;
+  color: #faf8f8;
+}
+
+.formulario {
+  background-color: #fff;
+  margin-top: 10%;
+  padding: 30px;
+}
+h1 {
+  text-align: center;
+  color: #1a2537;
+  font-size: 290%;
+  margin-bottom: 5%;
+}
+input[type="text"],
+input[Type="password"],
+input[Type="email"],
+input[Type="submit"] {
+
+  font-size: 20px;
+  width: %;
+  padding: 10px;
+  border: none;
+  text-align: center;
+}
+input[Type="submit"] {
+  margin: 0 auto;
+}
+
+.input-contenedor {
+  margin-bottom: 1.5%;
+  border: solid 1px #999;
+
+}
+
+.icon {
+  min-width: fit-content
+  text-align: center;
+  color: #999;
+}
+
+.button {
+  border: none;
+  width: 100%;
+  color: #faf8f8;
+  font-size: 20px;
+  background-color: #1a2537;
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover{
+    background-color: cadetblue;
+    color: black;
+}
+.link{
+    text-decoration: ;
+    color: #bed3f5;
+    font-weight: 600;
+}
+.link:hover{
+    color: rgb(68, 18, 247);
+}
+
+.button{
+    text-decoration: none;
+}
+
+@media(min-width:768px){
+    .formulario{
+    margin: auto;
+    width: 500px;
+    margin-top: 100px;
+    border-radius: 2px;
+    }
+}
