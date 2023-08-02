@@ -108,7 +108,7 @@ header label img {
 
 .section .box img{
   width: 60%;
-  border:#dab514 solid 2px; 
+  border:#ad365a solid 2px; 
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -159,7 +159,7 @@ font-size: medium;
 
 #marco h2{
   font-weight: 5rem;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
 }
 #marco span{
 width: 50vw;
@@ -195,21 +195,30 @@ font-size: 1rem;
   margin: 5px;
   margin-top: 3%;
   margin-bottom: 3%;
-  border-radius: 5px;
+  border:#b44768 solid 4px
 }
 
- #marco  img {
+ .servicios img {
 display: block;
 width: 32%;
-margin-top: 1%;
+
 margin-left: 10px;
 padding:  10px;
 background-color: transparent;
-border-radius: 5px;
+
+border-radius: 16px;
 
 
+ }
+.servicios:hover{
 
+  transform: scale(1.5); 
+  transition-duration: 0.9s ; 
+  transition-timing-function:ease-in-out;
+  transition-delay:.1s
 }
+
+
 
 .galeria{
   display: flex;
@@ -222,12 +231,22 @@ border-radius: 5px;
   margin: 0 auto;
   padding: 20px 0;
   margin-bottom: 20px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 
-
-
-
+.galeria span img:hover{
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    transform: scale(1.2); 
+    transition-duration: 0.9s ; 
+    transition-timing-function:ease-in-out;
+    transition-delay:.1s
+  
+}
 
 #body form {
   margin: 0 auto;
@@ -268,6 +287,11 @@ border-radius: 5px;
   color: #252525;
   cursor: pointer;
 }
+
+
+
+
+
 
 .footer{
   display: flex;
@@ -343,12 +367,10 @@ border-radius: 5px;
 
 
 
-#body .ul-blog .li-blog a img {
-  border-radius: 0%;
-}
+
 
 .galeria {
-  background-color: #a1813c;
+  background-color:#f5c8d6;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -395,6 +417,9 @@ border-radius: 5px;
   margin: 0 auto;
   border-radius: 10px;
 }
+
+
+
 
 .blog .card__blog .texto {
   background-color: #f7f8f7;
@@ -450,8 +475,12 @@ h1 {
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
+  transition: transform .9s; 
 }
 
+.box:hover{
+  transform: scale(1.2); 
+}
 .box .hover{
   width: 0%;
   height: 100%;
@@ -466,9 +495,9 @@ h1 {
 }
 
 .hover h1{
-  color: aliceblue;
+  color: rgb(238, 128, 210);
   text-shadow: 1px 1px 1px black;
-  font-size: 2.5em;
+  font-size: 2em;
   text-transform: uppercase;
   background-color: transparent;
   }
@@ -478,7 +507,7 @@ h1 {
   width: 100%;
  
 }
-/*==========================================================*/
+
 #marco .servicios{
   background-color: rgb(194, 193, 193);
   width: 30%;
@@ -490,7 +519,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 
-
+/*==========================================================*/
 /*==========================================================*/
 /*==========================================================*/
 /*==========================================================*/
@@ -915,3 +944,8 @@ background-color: transparent;
             margin-bottom: 9%;
           }
 }
+
+/*00000000000000000000000000000000000000000000000000000000*/
+
+
+
